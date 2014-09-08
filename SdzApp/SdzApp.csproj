@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{59E1E8FE-0B82-4145-BA67-A1AD1884A85D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>SdzApp</RootNamespace>
     <AssemblyName>SdzApp</AssemblyName>
   </PropertyGroup>
@@ -29,4 +29,15 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="GameObject\Mob.cs" />
+    <Compile Include="GameObject\IWeapon.cs" />
+    <Compile Include="GameObject\IAttackable.cs" />
+    <Compile Include="GameObject\Weapon.cs" />
+    <Compile Include="Math\Vector2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GameObject\" />
+    <Folder Include="Math\" />
+  </ItemGroup>
 </Project>

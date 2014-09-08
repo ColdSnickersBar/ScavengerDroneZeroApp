@@ -1,0 +1,5 @@
+/Users/Adam/projects/SDZ/app/SdzApp/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/Adam/projects/SDZ/app/SdzApp/bin/Debug/SdzApp.dll.mdb
+/Users/Adam/projects/SDZ/app/SdzApp/bin/Debug/SdzApp.dll
+/Users/Adam/projects/SDZ/app/SdzApp/obj/x86/Debug/SdzApp.dll
+/Users/Adam/projects/SDZ/app/SdzApp/obj/x86/Debug/SdzApp.dll.mdb
